@@ -33,3 +33,7 @@ class service:
 
         # return the total after the transaction is made
         return None
+
+    def whats_wrong(self):
+	# Ask Martin what's wrong
+        print("Doshita Martin-san")
