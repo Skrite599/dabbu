@@ -7,8 +7,7 @@ class DabbuDBI:
             host=host,
             database=database,
             user=user,
-            password=password,
-	    port="5432:5432"
+            password=password
         )
         self.cursor = self.conn.cursor()
 
